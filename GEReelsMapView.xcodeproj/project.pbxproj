@@ -24,6 +24,7 @@
 		D123524C2BC0C5DE00F4060A /* GEReelsMapConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEReelsMapConstants.m; sourceTree = "<group>"; };
 		D123524D2BC0C5DE00F4060A /* UIView+Named.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Named.h"; sourceTree = "<group>"; };
 		D123524E2BC0C60300F4060A /* GEReelsMapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEReelsMapView.m; sourceTree = "<group>"; };
+		D14834312BC0C9A400EAF699 /* BlocksKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BlocksKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,13 +45,13 @@
 				612C2D32FBA67DCD0310B7F0 /* Pods-GEReelsMapView.debug.xcconfig */,
 				9C521505EB093087E40EE0FF /* Pods-GEReelsMapView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		C7F28AC942898B390B58A5A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D14834312BC0C9A400EAF699 /* BlocksKit.framework */,
 				A5F5D21EEFECC7436653AE5A /* Pods_GEReelsMapView.framework */,
 			);
 			name = Frameworks;
@@ -253,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -311,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
